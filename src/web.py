@@ -6,9 +6,9 @@ import numpy as np
 import altair as alt
 
 st.title("Enfrenta a dos Pokemon y descubre quién será el ganador")
-num1 = st.number_input("Primer Pokemon", min_value=1, max_value=300)
+num1 = st.number_input("Primer Pokemon", min_value=1, max_value=800)
 st.write(num1)
-num2 = st.number_input("Segundo Pokemon", min_value=1, max_value=300)
+num2 = st.number_input("Segundo Pokemon", min_value=1, max_value=800)
 st.write(num2)
 
 
